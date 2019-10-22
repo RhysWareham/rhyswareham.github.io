@@ -1,0 +1,15 @@
+---
+layout: default
+title: The Maze
+modal-id: 5
+date: 2018-12-12
+img: MazeGame.png
+project-date: December 2018 (1st Year)
+role: Solo Programmer & Level Designer
+language: C#
+description: For my first University Assignment, I was tasked to demonstrate simple level design and programming techniques in order to add interactive mechanics to a basic game, using the Unity games engine. As there was no detail on what sort of game it must be, I decided to stick with a simple maze idea in order to implement random mechanics with it still suiting the genre.
+summary: Simple maze game created in Unity to demonstrate level design
+contribution: As I worked on this project alone, I had to do each aspect personally; planning, programming, level design and asset building and sourcing.<br><br>Mechanics Implemented<ul><li>Main Menu</li><li>Options Menu (Adjustable Screen Resolution)</li><li>Walking and Jumping</li><li>Opening and Closing Doors</li><li>Locked Doors with Collectable Keys</li><li>Teleportation</li><li>Time Lasers which Respawn the Player if Touched</li><li>Collapsible Pathway</li><li>Pop-up Hints</li></ul>
+githubrepo: https://github.com/RhysWareham/Unity-Maze-Game
+video: https://youtu.be/La1J-AmGdcE
+---
