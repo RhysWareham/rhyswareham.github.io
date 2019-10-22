@@ -1,11 +1,11 @@
 # Site settings
-title: Lewis Hammond
-email: lewis@bubblemap.co.uk
-url: https://github.com/bubblemapgaming
-description: "Lewis Hammond - Computer Games Programmer"
+title: Rhys Wareham
+email: rhys_wareham@hotmail.co.uk
+url: https://github.com/rhyswareham
+description: "Rhys Wareham - Computer Games Programmer"
 keywords: ""
 skills: "Computer Games Programme"
-meta_author: Hammond Lewis
+meta_author: Wareham Rhys
 
 # Google webmaster tools
 google_verify:
@@ -32,7 +32,7 @@ color:
 
 # Footer settings
 footer:
-  copyright: Lewis Hammond 
+  copyright: Rhys Wareham 
   location: Location
   social: Around the Web
   credits: Credits
@@ -40,9 +40,9 @@ footer:
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
-    url: http://twitter.com/bubblemapgames
+    url: http://twitter.com/rhyswareham3
   - title: github
-    url: https://github.com/bubblemapgaming
+    url: https://github.com/rhyswareham
 
 # Postal address (add as many lines as necessary)
 
