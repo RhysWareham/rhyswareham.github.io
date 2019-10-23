@@ -11,7 +11,7 @@ description: This mini golf game, is a mobile based game which was a requirement
 summary: Miniature golf game developed for mobile
 contribution: As I worked on this project alone, I had to do each aspect personally; planning, programming, level design and asset building.<br><br>Mechanics implemented<ul><li>Main Menu</li><li>Options Menu (Adjustable Sensitivity of Touch)</li><li>Mobile Input, touch input and button pressing</li><li>Tutorial Level</li><li>Golf Physics in Relation to Power and Bounce from Collisions</li><li>Adjustable Direction and Power</li><li>Score Tracker</li><li>Level Features (Bumps/Ramps, Teleporting Holes to Different Areas, Bounce Pads which Add More Force, Blockade with Button)</li></ul>
 githubrepo: https://github.com/RhysWareham/Golf-Game
-video: https://www.youtube.com/watch?v=xBaTiwJXEoA
+video: https://www.youtube.com/embed/xBaTiwJXEoA
 
 images:
   - image_path: /img/screenshots/MobileGolf/Level0.png
