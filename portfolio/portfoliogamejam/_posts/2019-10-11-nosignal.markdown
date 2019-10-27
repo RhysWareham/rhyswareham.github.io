@@ -1,0 +1,24 @@
+---
+layout: default
+title: No Signal
+modal-id: 2
+date: 2019-06-03
+img: NoSignal.png
+project-date: June 2019
+role: Lead Programmer, Level Designer, Story Writer
+language: C# (Unity)
+description: No Signal is a short game created within 30 hours for the University of Gloucestershire Game Jame 2019. My team consisted of 3 Programmers including myself and 2 Designers. The theme of this game jam was "Waves," so my team and I decided to use radio waves as the main mechanic. The game follows a UFO hunter with a radio scanner which he uses to track down his van to enevitably get back home after being abducted. However, when using the scanner, it causes the aliens to try to attack him.
+summary: No Signal is a small game created within 30 hours for the University of Gloucestershire Game Jam 2019; with the theme of 'Waves'.
+awards: This game came in the Top 3 within the main competition, and was then chosen to be shown off at the end of year show, where it placed 2nd overall.
+contribution: Within this project, I helped implement the movement, radio scanner tracking system, and the pressure plate minigame. I also worked on the game's story, as well as the level design and importing of sprites and animations. <br><br> Mechanics Implemented: <ul><li>Player Movement</li><li>Short Range Radio Tracker (A Device of Which Would Beep Faster or Slower Depending on the Player's Distance from the Target)</li><li>Enemies which try to attack whenever the scanner is on</li><li>Pressure Plate Minigame (Step on the plates in the correct order to open the door)</li><li>Radio Wave Minigame (Match the frequency and amplitude to the wave in order to go home)</li></ul>
+githubrepo: https://github.com/RhysWareham/June-2019_Game-Jam_No-Signal
+video: https://www.youtube.com/embed/cOl4kXYBJGA&t=3s
+
+images:
+  - image_path: /img/screenshots/NoSignal/screen1.png
+  - image_path: /img/screenshots/NoSignal/screen2.png
+  - image_path: /img/screenshots/NoSignal/screen3.png
+  - image_path: /img/screenshots/NoSignal/screen4.png
+  - image_path: /img/screenshots/NoSignal/screen5.png
+  - image_path: /img/screenshots/NoSignal/img1.jpg
+---
