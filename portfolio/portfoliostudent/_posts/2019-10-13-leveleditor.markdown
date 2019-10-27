@@ -2,7 +2,7 @@
 layout: default
 title: Level Editor
 modal-id: 10
-date: 2019-06-03
+date: 2019-06-10
 img: LevelEditor.png
 project-date: December 2018 (1st Year)
 role: Solo Programmer
