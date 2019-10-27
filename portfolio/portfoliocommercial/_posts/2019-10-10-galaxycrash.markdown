@@ -3,7 +3,7 @@ layout: default
 title: Galaxy Crash
 modal-id: 1
 date: 2014-07-15
-img: GalaxyCrash.png
+img: NoSignal.png
 project-date: October 2016 - September 2019
 role: Programmer, Project Management, Marketing, General Assets and Development
 language: GML (Game Maker Language)

@@ -3,7 +3,7 @@ layout: default
 title: Super Supermarket Shopping Saga
 modal-id: 2
 date: 2014-12-05
-img: SuperSupermarketShoppingSaga.png
+img: MathsLibrary.png
 project-date: 2014
 role: Solo Programmer
 language: GML (Game Maker Language)
