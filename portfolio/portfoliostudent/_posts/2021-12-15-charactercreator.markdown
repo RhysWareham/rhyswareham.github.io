@@ -3,7 +3,7 @@ layout: default
 title: Character Creator
 modal-id: 11
 date: 2021-12-15
-img: CharacterSelect.png
+img: CharacterSelect.PNG
 project-date: December 2021 (3rd Year)
 role: Solo Programmer & Artist
 language: C#
