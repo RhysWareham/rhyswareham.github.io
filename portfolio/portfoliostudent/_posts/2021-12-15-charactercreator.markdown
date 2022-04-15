@@ -11,7 +11,7 @@ description: Using the Unity game engine, I was required to create a character c
 summary: Character creation screen made using Unity
 contribution: All drawing and code
 githubrepo: https://github.com/RhysWareham/Character-Creator
-video: https://youtu.be/KLi_lC-Iv30
+video: https://www.youtube.com/watch?v=KLi_lC-Iv30
 
 
 ---
