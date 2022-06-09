@@ -1,0 +1,23 @@
+﻿<social_links class="text-center">
+    <div class="social_links-above">
+        <div class="container">
+            <div class="row">
+                <div class="social_links-col col-md-4">
+
+                </div>
+                <div class="social_links-col col-md-4">
+                    <ul class="list-inline">
+                        {% for network in site.social %}
+                        <li>
+                            <a href="{{ network.url }}" class="btn-social btn-outline" target="_blank"><i class="fab fa-{{ network.title }}"></i></a>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                <div class="social_links-col col-md-4">
+
+                </div>
+            </div>
+        </div>
+    </div>
+</social_links>
