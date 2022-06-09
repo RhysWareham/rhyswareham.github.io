@@ -1,5 +1,5 @@
 # Site settings
-title: Rhys Wareham
+title: Rhys Wareham - Games Programmer
 email: rhys_wareham@hotmail.co.uk
 url: https://github.com/rhyswareham
 description: "Rhys Wareham - Computer Games Programmer"
@@ -34,7 +34,7 @@ color:
 footer:
   copyright: Rhys Wareham 
   location: Location
-  social: Around the Web
+  social: Social Links
   credits: Credits
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
@@ -43,6 +43,8 @@ social:
     url: http://twitter.com/rhyswareham3
   - title: github
     url: https://github.com/rhyswareham
+  - title: linkedin
+    url: https://www.linkedin.com/in/rhys-wareham-191350197/
 
 # Postal address (add as many lines as necessary)
 
