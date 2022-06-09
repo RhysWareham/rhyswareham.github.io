@@ -7,18 +7,18 @@ img: Kurat.png
 project-date: January 2022 - Ongoing
 role: Gameplay & AI Programmer
 language: C# (Unity)
-description:  
+description: Kurat has been developed by myself and 4 team members for our final university project. The game has been taken to Insomnia 68 where we gathered over 1000 playtesters and a large amount of feedback. Kurat is an action board game for up to 4 players, in which the players must make decisions as a team and survive a variety of trials supplied by the Devil. Weapons are physics based using the right analog stick to control; for example you must swing a scythe around the player to gather momentum to deal higher damage. Should any team member die, the whole group loses.
 summary: Kurat is a co-op action board game inspired by Estonian Mythology
-awards: This game came in the Top 3 within the main competition, and was then chosen to be shown off at the end of year show, where it placed 2nd overall.
-contribution: Within this project, I helped implement the movement, radio scanner tracking system, and the pressure plate minigame. I also worked on the game's story, as well as the level design and importing of sprites and animations. <br><br> Mechanics Implemented <ul><li>Player Movement</li><li>Short Range Radio Tracker (A Device of Which Would Beep Faster or Slower Depending on the Player's Distance from the Target)</li><li>Enemies which try to attack whenever the scanner is on</li><li>Pressure Plate Minigame (Step on the plates in the correct order to open the door)</li><li>Radio Wave Minigame (Match the frequency and amplitude to the wave in order to go home)</li></ul>
-githubrepo: https://github.com/RhysWareham/June-2019_Game-Jam_No-Signal
+awards: Nominated for TIGA Creative Assembly Best Student Game 2022 Award
+contribution: Within this project, I have primarily been working on the items, combat mechanics and enemy AI including the two current boss enemies: The Frog of the North and The 4 Ancestors.
+githubrepo: 
 video: https://www.youtube.com/embed/-xd0T7QK0Gs
 
 images:
   - image_path: /img/portfolio/Lumberjack2.gif
-  - image_path: /img/screenshots/NoSignal/screen2.png
-  - image_path: /img/screenshots/NoSignal/screen3.png
-  - image_path: /img/screenshots/NoSignal/screen4.png
+  - image_path: /img/portfolio/FrogDemoGif.gif
+  - image_path: /img/portfolio/PlagueLevel.png
+  - image_path: /img/portfolio/KuratStory.PNG
   - image_path: /img/screenshots/NoSignal/screen5.png
   - image_path: /img/screenshots/NoSignal/img1.jpg
 ---
