@@ -113,7 +113,7 @@ header .intro-text .skills {
 
 @media(min-width:768px) {
     header .container {
-        padding-top: 200px;
+        padding-top: 50px;
         padding-bottom: 100px;
     }
 
@@ -344,7 +344,7 @@ footer .footer-above {
 }
 
 footer .footer-col {
-    margin-bottom: 25px;
+    margin-bottom: 5px;
 }
 
 footer .footer-below {
