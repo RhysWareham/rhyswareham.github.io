@@ -358,13 +358,13 @@ social_links {
 }
 
 social_links .social_links-above {
-    padding-top: 25px;
+    padding-top: 110px;
     background-color: #{{ site.color.secondary-dark }};
 }
 
 
 social_links .social_links-col {
-    margin-bottom: 25px;
+    margin-bottom: 10px;
 
 }
 
