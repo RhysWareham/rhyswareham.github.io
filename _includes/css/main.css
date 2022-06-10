@@ -204,9 +204,9 @@ section.success {
 }
 
 /*Put kurat in center; But need to add all the stuff below for it to work*/
-#portfolio .portfolio-kurat {
+/*#portfolio .portfolio-kurat {
     position: center;
-}
+}*/
 
 #portfolio .portfolio-item .portfolio-link {
     display: block;
