@@ -12,7 +12,7 @@ githubrepo: https://github.com/RhysWareham/ProceduralPuzzle
 video: https://www.youtube.com/embed/8FrsqDqEdU8
 summary: Puzzle developed using Procedural Generation
 
-irp: 
+images: 
 	- image_path: /img/portfolio/IRP.png
 
 ---

@@ -11,7 +11,6 @@ description: Kurat has been developed by myself and 4 team members for our final
 summary: Kurat is a co-op action board game inspired by Estonian Mythology
 awards: Nominated for TIGA Creative Assembly Best Student Game 2022 Award
 contribution: Within this project, I have primarily been working on the items, combat mechanics and enemy AI including the two current boss enemies: The Frog of the North and The 4 Ancestors.
-githubrepo: 
 video: https://www.youtube.com/embed/-xd0T7QK0Gs
 
 images:
