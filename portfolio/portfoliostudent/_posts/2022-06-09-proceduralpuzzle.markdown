@@ -3,7 +3,7 @@ layout: default
 title: Procedurally Generated Puzzle
 modal-id: 12
 date: 2022-06-07
-img: MD2Pathfinder.png
+img: PictureOfPuzzle.png
 project-date: May 2022 (3rd Year)
 role: Solo Programmer, Puzzle Designer
 language: C# (Unity)
@@ -12,11 +12,6 @@ githubrepo: https://github.com/RhysWareham/ProceduralPuzzle
 video: https://www.youtube.com/embed/8FrsqDqEdU8
 summary: Puzzle developed using Procedural Generation
 
-images:
-  - image_path: /img/screenshots/Spacebased/Construction.png
-  - image_path: /img/screenshots/Spacebased/Race1.png
-  - image_path: /img/screenshots/Spacebased/Race2.png
-  - image_path: /img/screenshots/Spacebased/Race3.png
-  - image_path: /img/screenshots/Spacebased/TeamPic.jpg
+irp: IRP.png
 
 ---
