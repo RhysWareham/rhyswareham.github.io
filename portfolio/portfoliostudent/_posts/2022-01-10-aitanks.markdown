@@ -3,7 +3,7 @@ layout: default
 title: AI Tanks
 modal-id: 12
 date: 2022-01-07
-img: PictureOfPuzzle.png
+img: TankAI.PNG
 project-date: January 2022 (3rd Year)
 role: AI Programmer
 language: C# (Unity)
@@ -12,8 +12,6 @@ githubrepo: https://github.com/RhysWareham/ProceduralPuzzle
 video: https://www.youtube.com/embed/fSkX_rqJXUI
 summary: Behaviour tree and state machine AI tanks fighting
 
-images:
-  - image_path: /img/portfolio/TankAI.PNG
 
 
 ---
