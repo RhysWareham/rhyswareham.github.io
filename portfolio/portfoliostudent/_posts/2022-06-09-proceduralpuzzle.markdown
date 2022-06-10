@@ -13,7 +13,7 @@ video: https://www.youtube.com/embed/8FrsqDqEdU8
 summary: Puzzle developed using Procedural Generation
 
 images:
-  - image_path: /img/portfolio/IRP.png
+  - image_path: /img/portfolio/IRP.PNG
 
 
 ---
