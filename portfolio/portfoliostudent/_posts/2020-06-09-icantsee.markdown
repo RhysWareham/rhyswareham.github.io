@@ -2,7 +2,7 @@
 layout: default
 title: I Can't See
 modal-id: 9
-date: 2020-06-07
+date: 2020-06-09
 img: ICantSee.PNG
 project-date: May 2022 (2nd Year)
 role: Programmer and Level Designer
@@ -12,8 +12,5 @@ contribution: This was the first game I had worked on for VR compatability. My c
 githubrepo: https://github.com/LewisHammond-uog/ICantSee
 video: https://www.youtube.com/embed/Y96a9gyEJJQ
 summary: VR Game in which you play as a blind man
-
-images:
-
 
 ---
