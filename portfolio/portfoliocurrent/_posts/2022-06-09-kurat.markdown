@@ -19,6 +19,4 @@ images:
   - image_path: /img/portfolio/FrogDemoGif.gif
   - image_path: /img/portfolio/PlagueLevel.png
   - image_path: /img/portfolio/KuratStory.PNG
-  - image_path: /img/screenshots/NoSignal/screen5.png
-  - image_path: /img/screenshots/NoSignal/img1.jpg
 ---
