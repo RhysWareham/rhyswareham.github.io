@@ -18,6 +18,7 @@ images:
   - image_path: /img/portfolio/CatAndShaman.gif
   - image_path: /img/portfolio/PlagueLevel.png
   - image_path: /img/portfolio/KuratStory.PNG
+  - image_path: /img/portfolio/DeerLevel.PNG
 
 
 ---
