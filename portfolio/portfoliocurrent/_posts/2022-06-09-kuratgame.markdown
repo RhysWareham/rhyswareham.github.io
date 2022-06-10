@@ -15,6 +15,7 @@ summary: Kurat is a co-op action board game inspired by Estonian Mythology
 images:
   - image_path: /img/portfolio/Lumberjack2.gif
   - image_path: /img/portfolio/FrogDemoGif.gif
+  - image_path: /img/portfolio/CatAndShaman.gif
   - image_path: /img/portfolio/PlagueLevel.png
   - image_path: /img/portfolio/KuratStory.PNG
 
