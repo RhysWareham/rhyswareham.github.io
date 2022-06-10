@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Procedurally Generated Puzzle
-modal-id: 12
+modal-id: 13
 date: 2022-06-07
 img: PictureOfPuzzle.png
 project-date: May 2022 (3rd Year)

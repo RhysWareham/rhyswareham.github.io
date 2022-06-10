@@ -1,6 +1,6 @@
 ---
 layout: default
-title: I Can't See
+title: I Cant See
 modal-id: 10
 date: 2020-06-09
 img: ICantSee.PNG
