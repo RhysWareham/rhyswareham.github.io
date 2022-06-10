@@ -18,4 +18,5 @@ images:
   - image_path: /img/portfolio/FrogDemoGif.gif
   - image_path: /img/portfolio/PlagueLevel.png
   - image_path: /img/portfolio/KuratStory.PNG
+
 ---
