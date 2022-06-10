@@ -96,6 +96,7 @@ header img {
     /*display: inline;*/
 	float: left;
     margin: 0 0 0 0;
+    padding-top: 5px;
 }
 
 header .intro-text .name {
