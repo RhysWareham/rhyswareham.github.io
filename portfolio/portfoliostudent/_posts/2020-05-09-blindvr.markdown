@@ -1,19 +1,19 @@
 ---
 layout: default
-title: I Can't See
+title: I Cant See
 modal-id: 10
-date: 2020-05-09
-img: ICantSee.PNG
-project-date: May 2020 (2nd Year)
-role: Programmer and Level Designer
+date: 2022-06-07
+img: PictureOfPuzzle.png
+project-date: May 2022 (3rd Year)
+role: Solo Programmer, Puzzle Designer
 language: C# (Unity)
-description: For an experimental games module, my team and I decided to make a vr game in which a player would play as a blind person. The objective was to complete a series of household chores to get ready for work. The player is able to get a sense of where they are via a shader which produced sonar-like waves across surfaces based on sound created within the game. Objects could create a sound wave from being dropped or hit against a surface; there were also radios around the house to give some base sound visuals.
-githubrepo: https://github.com/LewisHammond-uog/ICantSee
-video: https://www.youtube.com/embed/Y96a9gyEJJQ
-summary: VR Game in which you play as a blind person
-contribution: This was the first game I had worked on for VR compatability. My contribution included: <br><ul><li>Player Movement</li><li>Level Designing</li><li>Player Interactions and Tasks</li></ul>
+description: This project was my output design as a part two of my final year research assignment. Since I have always had an interest in puzzles, I focused on the Use of Procedural Generation for Puzzles in Video Games, whereby the main conclusion being that it can lead to a much higher rate of replayability for a player wishing to reexperience a story/game. To backup my research I designed and developed a puzzle where a player is given a grid of pillars. Each pillar has a hole with part of a number. By rotating the pillars, the player is able to align number parts to reveal the numbers required for a code to unlock the door. The grid is randomised from 2 by 2, to 7 by 7 pillars. The code is randomised from 2 to 9 digits long. And the numbers are always split up and scattered randomly amongst the grid of pillars. There are also difficulty options of Easy, Medium and Hard to give as large a sense of replayability as possible.
+githubrepo: https://github.com/RhysWareham/ProceduralPuzzle
+video: https://www.youtube.com/embed/8FrsqDqEdU8
+summary: Puzzle developed using Procedural Generation
 
-
+irp:
+  - image_path: /img/portfolio/IRP.PNG
 
 
 ---
