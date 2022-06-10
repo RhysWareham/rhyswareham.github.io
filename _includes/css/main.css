@@ -202,6 +202,11 @@ section.success {
     margin: 0 0 15px;
 }
 
+/*Put kurat in center*/
+#portfolio .portfolio-kurat {
+    position: center;
+}
+
 #portfolio .portfolio-item .portfolio-link {
     display: block;
     position: relative;
@@ -220,6 +225,7 @@ section.success {
     transition: all ease .5s;
 }
 
+/*Post hovering*/
 #portfolio .portfolio-item .portfolio-link .caption:hover {
     opacity: 1;
 }
