@@ -202,7 +202,7 @@ section.success {
     margin: 0 0 15px;
 }
 
-/*Put kurat in center*/
+/*Put kurat in center; But need to add all the stuff below for it to work*/
 #portfolio .portfolio-kurat {
     position: center;
 }
