@@ -7,7 +7,7 @@ img: TankAI.PNG
 project-date: January 2022 (3rd Year)
 role: AI Programmer
 language: C# (Unity)
-description: For this project, I was tasked with creating two types of AI. This was my first time programming AI, and led to new found interest in games programming for myself. The blue tank uses a behaviour tree for their AI, and actively searches for the Red, scouting their last known positions if the target manages to hide. Whereas the red tank uses a State Machine and tries to sneak up on the Blue, and is able to find cover when realising they have been spotted. 
+description: For this project, I was given a project with 2 user-controllable tanks, and was tasked with changing them into two types of AI. This was my first time programming AI, and led to new found interest in games programming for myself. The blue tank uses a behaviour tree for their AI, and actively searches for the Red, scouting their last known positions if the target manages to hide. Whereas the red tank uses a State Machine and tries to sneak up on the Blue, and is able to find cover when realising they have been spotted. 
 githubrepo: https://github.com/RhysWareham/AI-Tanks
 video: https://www.youtube.com/embed/fSkX_rqJXUI
 summary: Behaviour tree and state machine AI tanks fighting
