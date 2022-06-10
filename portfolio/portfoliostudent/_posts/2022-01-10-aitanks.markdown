@@ -10,7 +10,7 @@ language: C# (Unity)
 description: For this project, I was tasked with creating two types of AI. This was my first time programming AI, and led to new found interest in games programming for myself. The blue tank uses a behaviour tree for their AI, and actively searches for the Red, scouting their last known positions if the target manages to hide. Whereas the red tank uses a State Machine and tries to sneak up on the Blue, and is able to find cover when realising they have been spotted. 
 githubrepo: https://github.com/RhysWareham/ProceduralPuzzle
 video: https://www.youtube.com/embed/fSkX_rqJXUI
-summary: Two Tank AI Fighting
+summary: Behaviour tree and state machine AI tanks fighting
 
 images:
   - image_path: /img/portfolio/TankAI.PNG
