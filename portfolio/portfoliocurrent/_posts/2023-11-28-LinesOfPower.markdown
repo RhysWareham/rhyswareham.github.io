@@ -3,7 +3,7 @@ layout: default
 title: Lines Of Power
 modal-id: 9
 date: 2023-11-28
-img: NewPowerLinePicture.PNG
+img: NewPowerLinePicture.png
 project-date: January 2023 - Ongoing
 role: Solo Developer
 language: C# (Unity)
