@@ -1,9 +1,9 @@
 ---
 layout: default
 title: I Cant See
-modal-id: 10
+modal-id: 9
 date: 2020-05-09
-img: NewICantSee.PNG
+img: NewICantSee.png
 project-date: May 2020 (2nd Year)
 role: Programmer and Level Designer
 language: C# (Unity)

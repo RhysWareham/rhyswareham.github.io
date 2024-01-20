@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Last March of the Ent - Global Game Jam 2023 (Roots)
-modal-id: 4
+modal-id: 9
 date: 2023-11-28
-img: NewLastMarchOfTheEnt.PNG
+img: NewLastMarchOfTheEnt.png
 project-date: February 2023
 role: Programmer
 language: C# (Unity)

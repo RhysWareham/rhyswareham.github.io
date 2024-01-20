@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Shamrock Saints - Push Gaming
-modal-id: 93
+modal-id: 7
 date: 2024-03-01
-img: NewShamrockSaints.PNG
+img: NewShamrockSaints.png
 project-date: January 2023 - November 2023
 role: Lead Game Developer
 language: TypeScript
