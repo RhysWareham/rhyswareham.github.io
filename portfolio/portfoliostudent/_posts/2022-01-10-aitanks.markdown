@@ -3,7 +3,7 @@ layout: default
 title: AI Tanks
 modal-id: 12
 date: 2022-01-07
-img: TankAI.PNG
+img: NewTankAI.PNG
 project-date: January 2022 (3rd Year)
 role: AI Programmer
 language: C# (Unity)

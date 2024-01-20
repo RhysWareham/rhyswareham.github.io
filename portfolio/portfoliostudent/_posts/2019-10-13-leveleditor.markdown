@@ -3,7 +3,7 @@ layout: default
 title: Level Editor
 modal-id: 9
 date: 2019-06-10
-img: LevelEditor.png
+img: NewLevelEditor.png
 project-date: December 2018 (1st Year)
 role: Solo Programmer
 language: C# and XAML

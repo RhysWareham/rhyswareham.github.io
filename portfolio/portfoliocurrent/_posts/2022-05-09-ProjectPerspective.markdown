@@ -3,7 +3,7 @@ layout: default
 title: Project Perspective
 modal-id: 98
 date: 2022-07-09
-img: ProjectPerspective.PNG
+img: NewProjectPerspective.PNG
 project-date: June 2022 - Ongoing
 role: Solo Developer
 language: C# (Unity)

@@ -3,7 +3,7 @@ layout: default
 title: Save The World - Global Game Jam
 modal-id: 3
 date: 2020-01-30
-img: SaveTheWorld.PNG
+img: NewSaveTheWorld.PNG
 project-date: January 2020
 role: Lead Programmer, Level Designer
 language: C# (Unity)
