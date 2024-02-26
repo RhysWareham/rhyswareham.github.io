@@ -2,7 +2,7 @@
 layout: default
 title: Mobile Golf Game
 modal-id: 7
-date: 2019-06-10
+date: 2019-06-08
 img: NewMobileGolf.png
 project-date: June 2019 (1st Year)
 role: Solo Programmer, Level Designer/Modeller 
