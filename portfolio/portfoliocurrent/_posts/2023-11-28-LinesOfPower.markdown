@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Lines Of Power
-modal-id: 9
+modal-id: 21
 date: 2023-11-28
 img: NewPowerLinePicture.png
 project-date: January 2023 - Ongoing

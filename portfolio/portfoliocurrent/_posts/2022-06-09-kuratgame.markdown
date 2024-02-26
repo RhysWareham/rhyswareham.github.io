@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Kurat
-modal-id: 7
+modal-id: 19
 date: 2022-06-07
 img: NewKurat.png
 project-date: January 2022 - Ongoing
