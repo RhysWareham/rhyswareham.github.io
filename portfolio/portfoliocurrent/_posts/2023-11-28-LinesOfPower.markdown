@@ -13,7 +13,7 @@ video: https://www.youtube.com/embed/AXPryCJNl_U?si=HFzT0awfY6i4x4ir
 summary: Lines of Power is a Mobile Maths Puzzle Game
 
 images:
-
-
-
+- image_path: /img/portfolio/Powerline_Cross.png
+- image_path: /img/portfolio/Powerline_SplitSquare.png
+- image_path: /img/portfolio/Powerline_Rectangle.png
 ---
