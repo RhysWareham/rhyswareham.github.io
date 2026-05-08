@@ -8,7 +8,7 @@ project-date: April 2026 - Ongoing
 role: Solo Developer
 language: C# (Unity)
 description: I started this project with my partner, when we both started craving to play the old Cafe World game on Facebook. The plan is to release the game for mobile and desktop, using a cute pet theme. There will be different cookware to unlock, as well as different rooms, all customizable, along with a level progression which will unlock and level up new recipes.
-contribution: My role in this is all the programming and developing in C# with Unity, my partner is working on the art assets. Mechanics Implemented<br><ul><li>Money and XP System</li><li>Level Up Unlocks</li><li>Multiple cooking stations</li><li>Menu System for selecting recipes</li><li>Serving and selling mechanics</li><li>Basic Gameplay Loop, Cook, Place, Sell, Earn rewards</li><li>Customer queue and serving</li><li>Cleaning counters</li></ul>
+contribution: My role in this is all the programming and developing in C# with Unity, my partner is working on the art assets. <br>Mechanics Implemented<br><ul><li>Money and XP System</li><li>Level Up Unlocks</li><li>Multiple cooking stations</li><li>Menu System for selecting recipes</li><li>Serving and selling mechanics</li><li>Basic Gameplay Loop, Cook, Place, Sell, Earn rewards</li><li>Customer queue and serving</li><li>Cleaning counters</li></ul>
 githubrepo: https://github.com/RhysWareham/PetCafeGit
 video: https://www.youtube.com/embed/6GvNVyIJe7I?si=y1b4YY56K-hlC2e6
 summary: Cafe Management Mobile and Desktop Game
