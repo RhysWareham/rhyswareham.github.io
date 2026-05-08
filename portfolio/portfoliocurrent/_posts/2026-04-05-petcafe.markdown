@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Cafe Management Mobile and Desktop Game
+title: Cafe Management Game
 modal-id: 23
 date: 2026-05-04
 img: PetCafe.PNG
@@ -11,7 +11,7 @@ description: I started this project with my partner, when we both started cravin
 contribution: My role in this is all the programming and developing in C# with Unity (my partner is working on the art assets). Mechanics Implemented<br><ul><li>Money and XP System</li><li>Multiple cooking stations</li><li>Menu System for selecting recipes</li><li>Serving/selling mechanics</li><li>Basic Gameplay Loop: Cook -> Place -> Sell -> Earn rewards</li><li>Customer queue and serving</li><li>Cleaning counters</li></ul>
 githubrepo: https://github.com/RhysWareham/PetCafeGit
 video: https://www.youtube.com/embed/6GvNVyIJe7I?si=y1b4YY56K-hlC2e6
-summary: Cafe Management Mobile Game
+summary: Cafe Management Mobile and Desktop Game
 
 images:
 - image_path: /img/portfolio/PetCafe.PNG
