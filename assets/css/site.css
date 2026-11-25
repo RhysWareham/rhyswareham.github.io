@@ -815,7 +815,7 @@ svg.fill { fill: currentColor; }
   color: var(--accent);
 }
 .p-section p { color: var(--ink-2); margin-bottom: 14px; }
-.p-section a { color: var(--accent); font-weight: 600; }
+.p-section p a { color: var(--accent); font-weight: 600; }
 .p-list li {
   position: relative;
   padding: 0 0 10px 26px;
