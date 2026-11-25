@@ -448,19 +448,6 @@ svg.fill { fill: currentColor; }
   border-color: var(--rift-edge);
 }
 .btn--gold svg { fill: currentColor; stroke: none; }
-.btn--gold[disabled] {
-  background: transparent;
-  color: var(--rift-gold);
-  border: 2px dashed #FFC93C99;
-  box-shadow: none;
-}
-.btn--gold[disabled]:hover, .btn--gold[disabled]:active { box-shadow: none; }
-.btn--rift {
-  --btn-shadow: var(--rift-edge);
-  background: #2B1C55;
-  color: #fff;
-  border-color: var(--rift-edge);
-}
 
 /* ---------- Sections ---------- */
 .section { padding: 104px 0; }
@@ -903,10 +890,6 @@ svg.fill { fill: currentColor; }
 .p-foot span { font: 800 20px/1.15 var(--font-display); letter-spacing: -.01em; }
 .p-foot a:hover span { color: var(--accent); }
 
-/* Demo */
-.modal--demo { width: min(1280px, calc(100vw - 32px)); height: calc(100dvh - 40px); background: #000; }
-.demo__frame { flex: 1; min-height: 0; }
-.demo__frame iframe { width: 100%; height: 100%; border: 0; display: block; }
 
 /* ---------- Toast & cheat ---------- */
 .toast {
@@ -981,7 +964,6 @@ svg.fill { fill: currentColor; }
     border-radius: 0;
     box-shadow: none;
   }
-  .modal--demo { width: 100vw; height: 100dvh; }
   .p-meta div { border-right: 0; border-bottom: 2px solid var(--line); margin: 0 0 -2px; }
   .p-foot span { font-size: 17px; }
   .footer__hint { display: none; }

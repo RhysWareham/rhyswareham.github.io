@@ -98,26 +98,6 @@
     });
   });
 
-  /* ---------------- Royal Rift demo ---------------- */
-  var DEMO = window.ROYAL_RIFT_DEMO;
-  var demoBtn = $('#playDemo');
-  var demoModal = $('#demoModal');
-  var demoFrame = $('#demoFrame');
-  function openDemo() {
-    if (!DEMO) return;
-    demoFrame.innerHTML = '<iframe src="' + esc(DEMO) + '" title="Royal Rift demo" allow="autoplay; fullscreen" allowfullscreen></iframe>';
-    demoModal.showModal();
-  }
-  if (DEMO && demoBtn) {
-    demoBtn.disabled = false;
-    $('#playDemoLabel').textContent = 'Play the demo';
-    demoBtn.addEventListener('click', openDemo);
-  }
-  function closeDemo() { if (demoModal.open) demoModal.close(); demoFrame.innerHTML = ''; }
-  $('#demoClose').addEventListener('click', closeDemo);
-  demoModal.addEventListener('close', function () { demoFrame.innerHTML = ''; });
-  demoModal.addEventListener('click', function (e) { if (e.target === demoModal) closeDemo(); });
-
   /* ---------------- Project grid ---------------- */
   var grid = $('#grid');
   var showAllBtn = $('#showAll');
@@ -239,11 +219,6 @@
      .map(function (m) { return '<div><dt>' + m[0] + '</dt><dd>' + esc(m[1]) + '</dd></div>'; }).join('');
 
     var links = (p.links || []).map(linkBtn);
-    if (p.id === 'royal-rift') {
-      links.unshift(DEMO
-        ? '<button class="btn btn--primary" type="button" data-action="demo">' + ICON.play + 'Play the demo</button>'
-        : '<span class="btn" aria-disabled="true" style="cursor:default;box-shadow:none;border-style:dashed">Playable demo coming soon</span>');
-    }
 
     var overview = '<section class="p-section"><h3>Overview</h3>' +
       (p.overview || []).map(function (para) { return '<p>' + para + '</p>'; }).join('') +
@@ -340,8 +315,7 @@
       return;
     }
     var rep = e.target.closest('a[data-replace]');
-    if (rep) { e.preventDefault(); goTo(rep.getAttribute('href').slice(6)); return; }
-    if (e.target.closest('[data-action="demo"]')) { closeProject(); openDemo(); }
+    if (rep) { e.preventDefault(); goTo(rep.getAttribute('href').slice(6)); }
   });
 
   window.addEventListener('hashchange', route);

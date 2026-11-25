@@ -535,10 +535,3 @@ window.PROJECTS = [
     links: [{ label: "View the code", url: "https://github.com/RhysWareham/Level-Editor", kind: "github" }]
   }
 ];
-
-/*
-  Royal Rift's playable demo. When a web build is ready, put it in a folder
-  in this repo (for example /royal-rift/) and set the address here.
-  The "Play the demo" button switches on by itself.
-*/
-window.ROYAL_RIFT_DEMO = null; // e.g. "royal-rift/index.html"

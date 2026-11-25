@@ -7,7 +7,7 @@ My portfolio: plain HTML, CSS and JavaScript with no build step. GitHub Pages se
 | Path | What it is |
 |---|---|
 | `index.html` | The page: hero, Royal Rift, work grid, about, contact |
-| `assets/js/projects.js` | **Every project on the site**, plus the Royal Rift demo link |
+| `assets/js/projects.js` | **Every project on the site** |
 | `assets/js/site.js` | Grid, filters, project window, theme toggle |
 | `assets/css/site.css` | All styles. Colours are at the top (light, then dark) |
 | `assets/img/thumbs/` | Card images, 960×600 |
@@ -23,11 +23,12 @@ My portfolio: plain HTML, CSS and JavaScript with no build step. GitHub Pages se
 
 Each project gets its own link: `https://rhyswareham.github.io/#work/<id>`.
 
-## Royal Rift demo
+## Royal Rift
 
-When a web build is ready, copy it into a folder here (for example `royal-rift/`) and set
-`window.ROYAL_RIFT_DEMO = "royal-rift/index.html";` at the bottom of `assets/js/projects.js`.
-The "Play the demo" buttons switch on and open the game in a full-screen window.
+The Royal Rift panel's screenshots are in `assets/img/royal-rift/`, and its project window comes
+from the `royal-rift` entry in `assets/js/projects.js`. The game itself isn't hosted here, so none of
+its code or assets are public. When it launches, add a link to it in that entry's `links`
+(`kind: "play"`) to give it a "Play" button.
 
 ## Preview locally
 
