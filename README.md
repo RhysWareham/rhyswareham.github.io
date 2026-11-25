@@ -1,32 +1,34 @@
-Freelancer Jekyll theme  [![Build Status](https://api.travis-ci.org/jeromelachaud/freelancer-theme.svg?branch=master)](https://travis-ci.org/jeromelachaud/freelancer-theme/) 
-=========================
+# rhyswareham.github.io
 
-Jekyll theme based on [Freelancer bootstrap theme ](http://startbootstrap.com/template-overviews/freelancer/)
+My portfolio: plain HTML, CSS and JavaScript with no build step. GitHub Pages serves the files as they are (`.nojekyll` switches Jekyll off).
 
-## How to use
- - Place a image in `/img/portfolio/`
- - Replace `your-email@domain.com` in `_config.yml` with your email address. Refer to [formspree](http://formspree.io/) for more information.
- - Create posts to display your projects. Use the follow as an example:
-```txt
----
-layout: default
-modal-id: 1
-date: 2014-07-18
-img: cabin.png
-alt: image-alt
-project-date: July 2014
-client: The Client
-category: Web Development
-description: The description of the project
+## Files
 
----
-```
+| Path | What it is |
+|---|---|
+| `index.html` | The page: hero, Royal Rift, work grid, about, contact |
+| `assets/js/projects.js` | **Every project on the site**, plus the Royal Rift demo link |
+| `assets/js/site.js` | Grid, filters, project window, theme toggle |
+| `assets/css/site.css` | All styles. Colours are at the top (light, then dark) |
+| `assets/img/thumbs/` | Card images, 960×600 |
+| `assets/img/gallery/` | Screenshots shown inside a project window |
+| `assets/img/royal-rift/` | Royal Rift screenshots (pixel art, kept as PNG) |
+| `404.html` | "Game over" page |
 
-## Demo
-View this jekyll theme in action [here](https://jeromelachaud.github.io/freelancer-theme)
+## Add a project
 
-## Screenshot
-![screenshot](https://raw.githubusercontent.com/jeromelachaud/freelancer-theme/master/screenshot.png)
+1. Put a 960×600 image in `assets/img/thumbs/` (WebP or JPG, under ~150 KB). Or skip this and use the video's thumbnail with `thumb: { yt: "<YouTube id>" }`.
+2. Copy one of the entries in `assets/js/projects.js`, change the fields and place it where it should appear: the grid follows the order of that list.
+3. The first 9 show on load, and the rest sit behind "Show all".
 
----------
-For more details, read the [documentation](http://jekyllrb.com/)
+Each project gets its own link: `https://rhyswareham.github.io/#work/<id>`.
+
+## Royal Rift demo
+
+When a web build is ready, copy it into a folder here (for example `royal-rift/`) and set
+`window.ROYAL_RIFT_DEMO = "royal-rift/index.html";` at the bottom of `assets/js/projects.js`.
+The "Play the demo" buttons switch on and open the game in a full-screen window.
+
+## Preview locally
+
+Any static server works, for example `npx serve .` or `python -m http.server`, then open the address it prints.

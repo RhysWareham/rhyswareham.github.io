@@ -1,3 +1,284 @@
----
-layout: default
----
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rhys Wareham · Gameplay Programmer</title>
+  <meta name="description" content="Rhys Wareham is a gameplay programmer and Lead Game Developer at Massive Studios, building HTML5 slot games in TypeScript and Pixi.js, and indie games in Unity.">
+  <link rel="canonical" href="https://rhyswareham.github.io/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Rhys Wareham · Gameplay Programmer">
+  <meta property="og:description" content="Slot games by day at Massive Studios, indie games by night. Featuring Royal Rift, my studio's first game.">
+  <meta property="og:url" content="https://rhyswareham.github.io/">
+  <meta property="og:image" content="https://rhyswareham.github.io/assets/img/royal-rift/free-spins.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#F4EFE6" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#14120F" media="(prefers-color-scheme: dark)">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+
+  <script>
+    // Apply a saved theme before the page paints, so there's no flash.
+    try { var t = localStorage.getItem('theme'); if (t === 'light' || t === 'dark') document.documentElement.dataset.theme = t; } catch (e) {}
+    document.documentElement.classList.add('js');
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=DM+Sans:ital,opsz,wght@0,9..40,400..700;1,9..40,400&family=JetBrains+Mono:wght@500;700&display=swap">
+  <link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav" id="nav">
+    <div class="wrap nav__inner">
+      <a class="brand" href="#top" aria-label="Rhys Wareham, back to top">
+        <span class="brand__mark" aria-hidden="true">RW</span>
+        <span class="brand__name">Rhys Wareham</span>
+      </a>
+      <nav aria-label="Main">
+        <ul class="nav__links">
+          <li class="nav__rift"><a href="#royal-rift">Royal Rift</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="icon-btn theme-toggle" id="themeToggle" type="button" aria-label="Switch to dark mode">
+        <svg class="i-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 14.6A8.5 8.5 0 0 1 9.4 3.5a8.5 8.5 0 1 0 11.1 11.1Z"/></svg>
+        <svg class="i-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2v2.5M12 19.5V22M2 12h2.5M19.5 12H22M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M4.9 19.1l1.8-1.8M17.3 6.7l1.8-1.8"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="top">
+      <div class="wrap hero__copy">
+        <p class="pill reveal"><span class="pill__dot" aria-hidden="true"></span>Lead Game Developer at Massive Studios</p>
+        <h1 class="reveal">Hi, I'm Rhys, a gameplay programmer.</h1>
+        <p class="lead reveal">For 4+ years I've built and shipped HTML5 slot games in TypeScript and Pixi.js. Outside work I make games in Unity and C#, from physics-based combat and enemy AI to procedural puzzles, and I'm about to launch my iGaming studio's first game.</p>
+        <div class="cta reveal">
+          <a class="btn btn--primary" href="#work">See my work
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v16m0 0-6-6m6 6 6-6"/></svg>
+          </a>
+          <a class="btn" href="#royal-rift">Royal Rift <span class="btn__tag">Coming soon</span></a>
+        </div>
+      </div>
+
+      <div class="wrap">
+        <dl class="stats reveal">
+          <div><dt>4+ yrs</dt><dd>building games professionally</dd></div>
+          <div><dt>5+</dt><dd>commercial games shipped</dd></div>
+          <div><dt>TIGA</dt><dd>Best Student Game nominee, 2022</dd></div>
+          <div><dt>1st</dt><dd>BSc (Hons) Computer Games Programming</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <!-- ============ ROYAL RIFT ============ -->
+    <section class="rift" id="royal-rift" aria-labelledby="rift-title">
+      <div class="wrap rift__grid">
+        <div class="rift__media reveal">
+          <div class="rift__screen">
+            <img id="riftShot" src="assets/img/royal-rift/free-spins.png" alt="Royal Rift free spins at night, with multiplier wilds on the reels" width="1920" height="1040">
+          </div>
+          <div class="rift__thumbs" role="group" aria-label="Royal Rift screenshots">
+            <button type="button" aria-pressed="true" data-src="assets/img/royal-rift/free-spins.png" data-alt="Royal Rift free spins at night, with multiplier wilds on the reels">
+              <img src="assets/img/royal-rift/free-spins.png" alt="" loading="lazy"><span>Free spins</span>
+            </button>
+            <button type="button" aria-pressed="false" data-src="assets/img/royal-rift/base-game.png" data-alt="Royal Rift base game by day, with the castle under a green sky">
+              <img src="assets/img/royal-rift/base-game.png" alt="" loading="lazy"><span>Base game</span>
+            </button>
+            <button type="button" aria-pressed="false" data-src="assets/img/royal-rift/splash.png" data-alt="ShadowSlot Studios splash screen">
+              <img src="assets/img/royal-rift/splash.png" alt="" loading="lazy"><span>Studio splash</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="rift__copy reveal">
+          <p class="eyebrow eyebrow--rift">01 · Featured · ShadowSlot Studios</p>
+          <h2 id="rift-title" class="rift__title">Royal Rift</h2>
+          <p class="rift__status"><span class="rift__pulse" aria-hidden="true"></span>Coming soon</p>
+          <p>The first game from my own studio: a pixel-art slot I'm building end to end. I wrote the maths model and simulations in Python, the client in TypeScript with Svelte&nbsp;5 and PixiJS&nbsp;8, and drew the pixel art in Aseprite. I also learnt Spine for this game to animate the symbols, wins and free spins.</p>
+          <p>Land three scatters and the sky shatters into night, a rift tears open above the castle, and the free spins begin.</p>
+          <ul class="rift__facts" aria-label="Game features">
+            <li>5×4 reels · 40 lines</li>
+            <li>×2–×10 multiplier wilds</li>
+            <li>Collector wild</li>
+            <li>8 / 11 / 15 free spins</li>
+            <li>Bonus buy</li>
+            <li>5,000× max win</li>
+          </ul>
+          <div class="cta">
+            <button class="btn btn--gold" id="playDemo" type="button" disabled>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4.5v15l12.5-7.5z"/></svg>
+              <span id="playDemoLabel">Playable demo coming soon</span>
+            </button>
+            <a class="btn btn--rift" href="#work/royal-rift">How it's built</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ WORK ============ -->
+    <section class="section" id="work" aria-labelledby="work-title">
+      <div class="wrap">
+        <div class="section__head reveal">
+          <p class="eyebrow">02 · Work</p>
+          <h2 id="work-title">Things I've built</h2>
+          <p>Commercial slots, indie projects, game jams and university work. Pick one to see the video, what I built and the code.</p>
+        </div>
+
+        <div class="filters reveal" id="filters" role="group" aria-label="Filter projects">
+          <button type="button" data-filter="all" aria-pressed="true">All <span></span></button>
+          <button type="button" data-filter="igaming" aria-pressed="false">iGaming <span></span></button>
+          <button type="button" data-filter="indie" aria-pressed="false">Indie &amp; personal <span></span></button>
+          <button type="button" data-filter="jam" aria-pressed="false">Game jams <span></span></button>
+          <button type="button" data-filter="uni" aria-pressed="false">University <span></span></button>
+        </div>
+
+        <ul class="grid" id="grid" aria-live="polite"></ul>
+        <noscript><p>The project list needs JavaScript. You can also find my code on <a href="https://github.com/rhyswareham">GitHub</a>.</p></noscript>
+
+        <div class="more">
+          <button class="btn" type="button" id="showAll" hidden>Show all projects</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section section--alt" id="about" aria-labelledby="about-title">
+      <div class="wrap">
+        <div class="section__head reveal">
+          <p class="eyebrow">03 · About</p>
+          <h2 id="about-title">A bit about me</h2>
+        </div>
+
+        <div class="about">
+          <div class="about__text reveal">
+            <p>I'm Lead Game Developer at <strong>Massive Studios</strong>, where I turn designs into HTML5 slot games: gameplay features, reel mechanics, UI, and the architecture that keeps it all maintainable in a fast-moving production. Before that I led development on <strong>Shamrock Saints</strong> and <strong>Power Paws</strong> at Push Gaming.</p>
+            <p>Away from work I build in Unity and C#. I love crafting gameplay mechanics and enemy AI for desktop and mobile, and lately I've been exploring procedural animation for more dynamic enemies. That interest started with <strong>Kurat</strong>, a TIGA-nominated university game where I built the physics-based combat and the boss AI.</p>
+            <p>I graduated with First Class Honours in Computer Games Programming from the University of Gloucestershire. Right now I'm finishing <strong>Royal Rift</strong> and making a cosy cafe game with my partner.</p>
+
+            <ol class="timeline" aria-label="Experience">
+              <li>
+                <span class="timeline__when timeline__when--now">Now</span>
+                <div><p class="timeline__role">Lead Game Developer · Massive Studios</p>
+                <p class="timeline__note">Karate Squid, Knucklehead Brothers, Cashtopher Columbus</p></div>
+              </li>
+              <li>
+                <span class="timeline__when">Indie</span>
+                <div><p class="timeline__role">ShadowSlot Studios</p>
+                <p class="timeline__note">Royal Rift: maths, client, pixel art and Spine animation</p></div>
+              </li>
+              <li>
+                <span class="timeline__when">Before</span>
+                <div><p class="timeline__role">Lead Game Developer · Push Gaming</p>
+                <p class="timeline__note">Shamrock Saints, Power Paws</p></div>
+              </li>
+              <li>
+                <span class="timeline__when">2018–22</span>
+                <div><p class="timeline__role">BSc (Hons) Computer Games Programming, First Class</p>
+                <p class="timeline__note">University of Gloucestershire</p></div>
+              </li>
+            </ol>
+          </div>
+
+          <div class="skills reveal" aria-label="Skills">
+            <div class="skills__group">
+              <h3>Languages</h3>
+              <ul class="chips"><li>C#</li><li>TypeScript</li><li>JavaScript</li><li>C++</li><li>HTML5</li><li>CSS</li></ul>
+            </div>
+            <div class="skills__group">
+              <h3>Web game tech</h3>
+              <ul class="chips"><li>Pixi.js</li><li>Spine</li><li>Canvas 2D</li><li>WebGL</li><li>Svelte</li></ul>
+            </div>
+            <div class="skills__group">
+              <h3>Engines</h3>
+              <ul class="chips"><li>Unity</li><li>Unreal Engine 4/5</li></ul>
+            </div>
+            <div class="skills__group">
+              <h3>How I work</h3>
+              <ul class="chips"><li>OOP</li><li>Design patterns</li><li>Agile / Scrum</li><li>Game recovery &amp; server-driven state</li></ul>
+            </div>
+            <div class="skills__group">
+              <h3>Tools</h3>
+              <ul class="chips"><li>Git</li><li>Perforce</li><li>Visual Studio</li><li>Jira</li><li>Confluence</li><li>ClickUp</li><li>Trello</li><li>Figma</li><li>Aseprite</li><li>Maya</li><li>Adobe Suite</li></ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section" id="contact" aria-labelledby="contact-title">
+      <div class="wrap">
+        <div class="contact reveal">
+          <p class="eyebrow eyebrow--light">04 · Contact</p>
+          <h2 id="contact-title">Let's make something fun.</h2>
+          <p class="contact__lead">Whether it's a role, a collaboration or a chat about games, my inbox is open.</p>
+          <div class="contact__email">
+            <a class="contact__address" href="mailto:rhys.wareham99@gmail.com">rhys.wareham99@gmail.com</a>
+            <button class="btn btn--light btn--small" type="button" id="copyEmail" data-email="rhys.wareham99@gmail.com">Copy</button>
+          </div>
+          <div class="cta">
+            <a class="btn btn--light" href="https://drive.google.com/file/d/1vhGeyN1ZBDvxSxmqaogjSjeHdClIr0_7/view?usp=sharing" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3h7l5 5v13H7zM14 3v5h5M10 13h6M10 17h6"/></svg>
+              View my CV
+            </a>
+          </div>
+          <ul class="socials" aria-label="Elsewhere">
+            <li><a href="https://www.linkedin.com/in/rhys-wareham-191350197/" target="_blank" rel="noopener" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" aria-hidden="true" class="fill"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13ZM7.12 20.45H3.56V9h3.56v11.45ZM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0Z"/></svg><span>LinkedIn</span></a></li>
+            <li><a href="https://github.com/rhyswareham" target="_blank" rel="noopener" aria-label="GitHub">
+              <svg viewBox="0 0 24 24" aria-hidden="true" class="fill"><path d="M12 .3a12 12 0 0 0-3.8 23.38c.6.12.83-.26.83-.57l-.02-2.04c-3.34.72-4.04-1.61-4.04-1.61-.55-1.39-1.33-1.76-1.33-1.76-1.09-.74.08-.73.08-.73 1.2.09 1.84 1.24 1.84 1.24 1.07 1.83 2.8 1.3 3.49 1 .1-.78.42-1.31.76-1.61-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.14-.3-.54-1.52.1-3.18 0 0 1-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.28-1.55 3.29-1.23 3.29-1.23.64 1.66.24 2.88.12 3.18a4.65 4.65 0 0 1 1.23 3.22c0 4.61-2.8 5.63-5.48 5.92.42.36.81 1.1.81 2.22l-.01 3.29c0 .31.2.69.82.57A12 12 0 0 0 12 .3Z"/></svg><span>GitHub</span></a></li>
+            <li><a href="https://www.youtube.com/@RhysWareham-e9c" target="_blank" rel="noopener" aria-label="YouTube">
+              <svg viewBox="0 0 24 24" aria-hidden="true" class="fill"><path d="M23.5 6.19a3.02 3.02 0 0 0-2.12-2.14C19.5 3.55 12 3.55 12 3.55s-7.5 0-9.38.5A3.02 3.02 0 0 0 .5 6.19C0 8.07 0 12 0 12s0 3.93.5 5.81a3.02 3.02 0 0 0 2.12 2.14c1.87.5 9.38.5 9.38.5s7.5 0 9.38-.5a3.02 3.02 0 0 0 2.12-2.14C24 15.93 24 12 24 12s0-3.93-.5-5.81ZM9.55 15.57V8.43L15.82 12l-6.27 3.57Z"/></svg><span>YouTube</span></a></li>
+            <li><a href="https://warehamgames.itch.io" target="_blank" rel="noopener" aria-label="itch.io">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9h12a4 4 0 0 1 4 4v2a3 3 0 0 1-5.4 1.8L15 15H9l-1.6 1.8A3 3 0 0 1 2 15v-2a4 4 0 0 1 4-4ZM7.5 11v3M6 12.5h3M16 12h.01M18 14h.01"/></svg><span>itch.io</span></a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer__inner">
+      <p>© <span id="year">2026</span> Rhys Wareham</p>
+      <p class="footer__hint">Psst: try the <span class="kbd">↑ ↑ ↓ ↓ ← → ← → B A</span></p>
+      <a href="#top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <!-- ============ PROJECT WINDOW ============ -->
+  <dialog class="modal" id="projectModal" aria-labelledby="pTitle">
+    <div class="modal__bar">
+      <p class="modal__crumb" id="pCrumb"></p>
+      <div class="modal__nav">
+        <button class="icon-btn" type="button" id="pPrev" aria-label="Previous project"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m15 5-7 7 7 7"/></svg></button>
+        <button class="icon-btn" type="button" id="pNext" aria-label="Next project"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 5 7 7-7 7"/></svg></button>
+        <button class="icon-btn" type="button" id="pClose" aria-label="Close"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+      </div>
+    </div>
+    <div class="modal__body" id="pBody"></div>
+  </dialog>
+
+  <!-- ============ ROYAL RIFT DEMO ============ -->
+  <dialog class="modal modal--demo" id="demoModal" aria-label="Royal Rift demo">
+    <div class="modal__bar">
+      <p class="modal__crumb">Royal Rift · demo with play money</p>
+      <div class="modal__nav">
+        <button class="icon-btn" type="button" id="demoClose" aria-label="Close the demo"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+      </div>
+    </div>
+    <div class="demo__frame" id="demoFrame"></div>
+  </dialog>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="assets/js/projects.js"></script>
+  <script src="assets/js/site.js"></script>
+</body>
+</html>
